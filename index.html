@@ -1,0 +1,25 @@
+<html lang="en" >
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Routh Calculation</title>
+</head>
+<body>
+    <div  class="upper">
+        <label class="label" for="">Enter the Equation : <input id="input" class="input" type="text" placeholder="equation"></label>
+        <button class="but" onclick="myFunction()">Answer</button>
+        <button class="but" onclick="Clear()">CLear</button>
+    </div>
+    <div class="contain">
+        <div class="answer">
+            <h2> Answer :</h2>
+            <div class="tables">
+                <table id="NameTable" class="table2"></table>
+                <table id="matrixTable" class="table"></table>
+            </div>
+            <div id="stable" class="stable"></div>
+            <div id="num" class="num"></div>
+        </div>
+    </div>
+    <script src="routh.js"></script>
+</body>
+</html>
